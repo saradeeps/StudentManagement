@@ -1,0 +1,12 @@
+﻿@model IEnumerable<StudManagement.Model.Student>
+
+<body>
+    @foreach(var m in Model)
+    {
+
+        <div>
+            <h2>@m.Id</h2>
+            <h2>@m.Name</h2>
+        </div>
+    }
+</body>
